@@ -8,6 +8,8 @@ int main() {
         cin >> value;
         if (value == lastValue)
             longestSequance += 1;
+        else
+            longestSequance = 1;
         if (longestSequance > lastLongestSeq) {
             sequanceNum = value;
             lastLongestSeq = longestSequance;
